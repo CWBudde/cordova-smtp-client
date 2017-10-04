@@ -1,6 +1,6 @@
 # Cordova SMTP Client
 
-Simple pluging that sends an email with or without attachments without prompt the user.
+Simple plugin that sends an email with or without attachments without prompt the user.
 
 ## Using
 
@@ -13,7 +13,7 @@ Install the plugin using your any plugman compatible cli
 
     $ cordova plugin add https://github.com/nelsonhumberto/cordova-smtp-client.git
 
-Under the plugins / com.cordova.smtp.client / www folder you will find a Typescript file to help you use the plugin (not mandatory) MailSettings.ts, if you are not using typescript there is also a javascript version of it under the same folder MailSettings.js.
+Under the plugins / www folder you will find a Typescript file to help you use the plugin (not mandatory) MailSettings.ts, if you are not using typescript there is also a javascript version of it under the same folder MailSettings.js.
 
 On your javascript call use a code similar to this.
 
@@ -43,7 +43,7 @@ The attachments is an array of strings where when using IOS the files needs to b
 The return object "message" has the following structure
 
 	{
-	    success : bool,
+	  success : bool,
 		errorCode : int,
 		errorMessage : string	    
 	}
